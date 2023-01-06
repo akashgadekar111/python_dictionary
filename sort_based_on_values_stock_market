@@ -1,0 +1,16 @@
+stock_market = {'AXIS BANK':7,
+                'BHARTI AIRTEL':5,
+                'COAL INDIA':10,
+                'ITC':1,
+                'TCS':3,
+                'L&T':2,
+                'KOTAK BANK':8,
+                'AMERICAN EXPRESS':11
+                }
+
+print(stock_market)
+
+#sort dictionary items based on values
+
+sorted_stock = sorted(stock_market.items(),key=lambda x:x[1])
+print(sorted_stock)
