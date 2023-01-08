@@ -10,7 +10,20 @@ stock_market = {'AXIS BANK':7,
 
 print(stock_market)
 
-#sort dictionary items based on values
-
+#sorted dict
 sorted_stock = sorted(stock_market.items(),key=lambda x:x[1])
 print(sorted_stock)
+
+#min from dict
+min_val = min(stock_market.items(),key=lambda x:x[1])
+print(min_val)
+
+#max dict
+max_val = max(stock_market.items(),key=lambda x:x[1])
+print(man_val)
+
+#print if value>5
+for (key,value) in stock_market.items():
+    if value>5:
+        new_dic[key]=value
+print(new_dic)
